@@ -1,5 +1,9 @@
 from fastapi import FastAPI
 from routers.resume import router as resume_router
+from routers.rag import router as rag_router
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI(
     title="PathFinder",
@@ -8,6 +12,7 @@ app = FastAPI(
 )
 
 app.include_router(resume_router)
+app.include_router(rag_router)
 
 @app.get("/")
 def health():

@@ -21,3 +21,6 @@ data/**/*.pdf
 data/**/*.docx
 data/**/*.csv
 data/**/*.xlsx
+
+# Extra
+apps/api/.chroma/
