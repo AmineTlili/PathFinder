@@ -4,6 +4,7 @@ from routers.rag import router as rag_router
 from dotenv import load_dotenv
 from routers.assistant import router as assistant_router
 from routers.job import router as job_router
+from routers.apply import router as apply_router
 
 
 load_dotenv()
@@ -19,6 +20,7 @@ app.include_router(resume_router)
 app.include_router(rag_router)
 app.include_router(assistant_router)
 app.include_router(job_router)
+app.include_router(apply_router)
 
 
 @app.get("/")
