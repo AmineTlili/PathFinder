@@ -64,7 +64,6 @@ It allows users to:
 
 ## 🖼️ Screenshots
 
-```text
 assets/screenshots/
 ├── 01-home.png
 ![Home](assets/screenshots/01-home.png)
