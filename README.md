@@ -2,6 +2,8 @@
 
 PathFinder is an AI-powered career intelligence web application that helps job seekers understand how well their profile matches a job offer.
 
+[Home](assets/screenshots/01-home.png)
+
 It allows users to:
 - Upload a resume (PDF)
 - Paste a job description
@@ -66,7 +68,6 @@ It allows users to:
 
 assets/screenshots/
 ├── 01-home.png
-![Home](assets/screenshots/01-home.png)
 ├── 02-upload-resume.png
 ![Match Result](assets/screenshots/02-upload-resume.png)
 ├── 03-upload-job.png
