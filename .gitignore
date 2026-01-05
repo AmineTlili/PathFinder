@@ -4,17 +4,20 @@ __pycache__/
 .venv/
 venv/
 .env
+.env.local
 .env.*
 
 # Node / Front
 node_modules/
 .next/
 dist/
+.vite/
 
 # OS / IDE
 .DS_Store
 .vscode/
 .idea/
+Thumbs.db
 
 # Data & privacy
 data/**/*.pdf
@@ -24,3 +27,5 @@ data/**/*.xlsx
 
 # Extra
 apps/api/.chroma/
+
+
