@@ -1,4 +1,4 @@
-# PathFinder — CV ↔ Job Matching (RAG + LLM)
+# PathFinder — CV ↔ Job Matching (RAG + LLM) 
 
 PathFinder is an AI-powered career intelligence web application that helps job seekers understand how well their profile matches a job offer.
 
